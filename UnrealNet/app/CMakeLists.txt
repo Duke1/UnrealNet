@@ -64,8 +64,8 @@ target_link_libraries( # Specifies the target library.
                        ${POCO_LIB_PATH}/${ANDROID_ABI}/libPocoXML.a
                        ${POCO_LIB_PATH}/${ANDROID_ABI}/libPocoJSON.a
                        PocoFoundation
-                       ${POCO_LIB_PATH}/${ANDROID_ABI}/libcrypto.a
                        ${POCO_LIB_PATH}/${ANDROID_ABI}/libssl.a
+                       ${POCO_LIB_PATH}/${ANDROID_ABI}/libcrypto.a
 
                        )
 
