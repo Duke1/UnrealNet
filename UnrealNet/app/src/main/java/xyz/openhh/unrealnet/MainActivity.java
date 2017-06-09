@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 TextView tv = (TextView) findViewById(R.id.sample_text);
-                tv.setText(stringFromJNI());
+//                tv.setText(stringFromJNI());
+                testWss();
             }
         });
 
@@ -62,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
      * which is packaged with this application.
      */
     public native String stringFromJNI();
+
+    public native void testWss();
 
     // Used to load the 'native-lib' library on application startup.
     static {
